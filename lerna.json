@@ -1,0 +1,17 @@
+{
+  "ignoreChanges": [
+    ".github/**",
+    ".storybook/**",
+    "**/*.md",
+    "**/*.spec.js",
+    "**/*.stories.js",
+    "**/package.json",
+    "**/node_modules/**"
+  ],
+  "npmClient": "yarn",
+  "packages": [
+    "src/*"
+  ],
+  "useWorkspaces": true,
+  "version": "independent"
+}
